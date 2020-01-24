@@ -7,23 +7,35 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery.js"></script>
   <script src="js/scripts.js"></script>
-  <title>Beep-Boop-Inpoot</title>
+  <title>Beep-Boop</title>
 </head>
 
 <body>
+
   <div class="container">
+
     <h1>Enter a number for quantum computing:</h1>
-    <form id="user_number_inpt">
-    <div class="form-group">
-      <input type="text" id="word" class="form-control">
+
+    <form id="spaceForm">
+
+      <div class="form-group">
+
+        <input type="text" id="numberInput" class="form-control">
+
+      </div>
+
+      <button type="submit" class="btn btn-primary">Compute!</button>
+
+    </form>
+
+    <div id="result">
+
+      <p><span id="numberInputResult"></span></p>
+
     </div>
 
-    <button type="submit" class="btn btn-primary">Compute!</button>
-    </form>
-    <div id="result">
-      <p><span class="user_number_inpt_result"></span></p>
-    </div>
   </div>
+
 </body>
 
 </html>
