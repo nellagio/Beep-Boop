@@ -1,0 +1,14 @@
+body {
+background-color: blanchedalmond;
+color: brown;
+}
+
+.btn {
+    size: 2x;
+    background-color: chocolate;
+    outline-color: coral;
+}
+
+.btn:hover {
+    background-color: darkgray;
+}
