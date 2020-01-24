@@ -16,12 +16,23 @@ _A web application that takes a number from a user and returns a range of number
 3. Open index.html into any web browser
 4. Enjoy
 
-## Break down of thought process
+## Break down of thought process and specs:
 
-____input_______output__________________
-|           |            |             |
-|           |            |             |
-|___________|____________|_____________|
+Input:     Output:
+1           Beep!
+2           Boop!
+3            "I'm sorry, Dave. I can't do that"
+4            4
+5            5
+6            6 
+7            7
+8            8
+9            9
+10         Beep!
+11         Beep!Beep!
+12         Beep!Boop! 
+13         Beep! "I'm sorry, Dave. I can't do that"
+14         Beep! 
 
 ## Known Bugs
 
