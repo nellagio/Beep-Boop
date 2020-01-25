@@ -6,9 +6,15 @@ $(document).ready(function() {
     event.preventDefault();
     var numberInputResult = parseInt($("#numberInput").val());
     $("#numberInputResult").text(numberInputResult);
+
+    var listOfNumbers = [];
+
+
+
     for (var index = 0; index <= numberInputResult; index += 1) {
-      console.log(index)
+      listOfNumbers.push(index);
     }
+     $("#numberInputResult").text(listOfNumbers);
       
   });
 });
