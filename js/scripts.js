@@ -9,10 +9,11 @@ $(document).ready(function() {
 
     var listOfNumbers = [];
 
-
-
     for (var index = 0; index <= numberInputResult; index += 1) {
-      listOfNumbers.push(index);
+      if (index === 3) {
+          listOfNumbers.push("I'm sorry, Dave. I can't do that.");
+        }
+    else {listOfNumbers.push(index);}
     }
      $("#numberInputResult").text(listOfNumbers);
       
