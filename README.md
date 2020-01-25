@@ -18,6 +18,15 @@ _A web application that takes a number from a user and returns a range of number
 
 ## Break down of thought process and specs:
 
+input: user provides an input of numbers that the computer receives as a string.
+
+output: a list of numbers from 0 to the inputed number(s) with 1, 2 and 3 being replaced by words.
+
+1. get value from input
+2. turn string value into an integer
+3. output all integers from 0 to whatever number is given - begin loop
+  a. begin loop
+
 Input:     Output:
 1           Beep!
 2           Boop!
@@ -33,6 +42,9 @@ Input:     Output:
 12         Beep!Boop! 
 13         Beep! "I'm sorry, Dave. I can't do that"
 14         Beep! 
+--        
+
+
 
 ## Known Bugs
 

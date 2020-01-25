@@ -11,4 +11,5 @@ color: brown;
 
 .btn:hover {
     background-color: darkgray;
+    color: white;
 }
